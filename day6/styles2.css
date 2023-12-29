@@ -1,0 +1,27 @@
+/* Descendent Selector */
+main p
+{
+    background-color:red;
+}
+/* Child Selector */
+h1 p{
+    color:blue;
+}
+/* adjecent sibiling selector */
+section  +p{
+    color:yellow;
+}
+/* general sibiling selector */
+/* it indicates that all para will be same design after section */
+section ~p{
+    color:red;
+}
+
+/* atribute selector */
+[target="_blank"]{
+    color:pink;
+    text-decoration:none;
+}
+[alt~="pw"]{
+    background-color: black;
+}

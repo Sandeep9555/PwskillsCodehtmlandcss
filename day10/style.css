@@ -1,0 +1,46 @@
+body{
+   background-color:red;
+}
+
+div{
+    font-size:x-large;
+    text-align:center;
+}
+
+div::after{
+    content:'welcome to the demo'
+}
+@media(max-width:400px){
+    body{
+        background-color:black;
+    }
+    div::after{
+        content: 'very small'
+    }
+}
+ @media (400px<= width <=768px)/*(min-width:400px) and (max-width:768px)*/{ 
+    body{
+        background-color:yellowgreen;
+    }
+    div::after{
+        content:'mid-size device'
+    }
+}
+@media(min-width:768px) and (max-width:900px){
+    body{
+        background-color: purple;
+    }
+    div::after{
+        content:'theek h'
+    }
+}
+@media(min-width:900px){
+   /* if viewport is atleast900px or aboce then this style will apply */
+
+   body{
+    background-color:aquamarine;
+   }
+   div::after{
+    content:'woah its working'
+   }
+}

@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Red Rose", cursive;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/.assets/a.png');
+    
+    background-size: cover;
+    background-attachment:fixed;
+}
+.header{
+    display:flex;
+    padding:0 60px 0 60px;
+    align-items: center;
+    justify-content:space-between;
+    margin-top:50px;
+}
+.list{
+    display:flex;
+    list-style: none;
+    font-family:"Red Rose";
+    gap:60px;
+    color: #ffc233;
+    font-weight:500;
+    font-size:20px;
+    font-style:normal;
+   
+}
+.logo{
+    height: 100px;
+}
+
+.order-button{
+    
+    background-color: #ff505f;
+    padding:15px 42px;
+    font-family:"Red Rose";
+    font-style:normal;
+    font-size:25px;
+    color:#ffffff;
+    cursor:pointer;
+    font-weight:500;
+    border:none;
+}
+.hero-section{
+    max-width:1150px;
+    text-align:center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.main-heading
+{
+    font-family: "Dela Gothic One", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    color: #ffc233;
+}
+
+.button{
+  background-color: #ff505f;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+  border: none;
+  padding: 25px 50px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.footer
+{
+        
+        position:absolute;
+       
+        right: 40px;
+    }
+     

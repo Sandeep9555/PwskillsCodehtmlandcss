@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        .hover:hover{
+            background-color: pink;
+            color:white;
+
+        }
+        input:focus{
+            color:red;
+            font-size:20px;
+        }
+        /* a:hover{
+            color:pink;
+        }
+        a:active{
+            color:brown;
+        } */
+        /* a:visited{
+            color:black;
+        }  */
+        /* a:first-child{
+           background-color: yellow;
+        }
+        a:nth-child(2n+1){
+               background-color: red;        
+        }*/
+        /* p::first-line{
+            color:violet;
+        } */
+        /* p::after{
+            content:"_Anurag";
+            color:aqua;
+        } */
+        p::selection{
+            background-color: black;
+            color:yellow;
+        }
+    </style> 
+</head>
+<body>
+    <!-- Pseudo Classes -->
+    <p class="hover">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, voluptatem.</p>
+    <input type="text">
+    <hr>
+    <nav>
+        <a href="https://www.google.com">google</a>
+        <a href="https://www.google.com">google</a>
+        <a href="https://www.google.com">google</a>
+        <a href="https://www.google.com">google</a>
+        <a href="https://www.google.com">google</a>
+        <a href="https://www.google.com">google</a>
+        <a href="https://www.google.com">google</a>
+        <a href="https://www.google.com">google</a>
+    </nav>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, hic eos in doloremque distinctio est id nulla ducimus et ipsum.</p>
+</body>
+</html>
